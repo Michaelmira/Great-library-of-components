@@ -13,6 +13,7 @@
 - Import new file to Componets Validators.js
 - Import CSS Files Login.css, CustomerSignUp.CSS
 - Import to Layout const [isLoggedIn, setIsLoggedIn] = useState(false); import usestate at top
+- Import / Replace Navbar with Custom Navbar
 
 # WebApp boilerplate with React JS and Flask API
 

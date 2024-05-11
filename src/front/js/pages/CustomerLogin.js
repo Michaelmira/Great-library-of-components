@@ -53,13 +53,13 @@ export const CustomerLogin = () => {
                 >
                     Login
                 </button>
-                <a
+                {/* <a
                     href="#"
                     className="login-forgot-password-link"
                     onClick={handleForgotPassword}
                 >
                     Forgot Password?
-                </a>
+                </a> */}
             </div>
         </div>
     );

@@ -5,7 +5,7 @@
 - Import Decorators.py Whole File.
 - Import to flux STORE customers: [], customerId: undefined, token: undefined, sessionStorageChecked: !!sessionStorage.getItem("token")
 - Import to flux ACTIONS "ALL Customer Actions"
-- Import 
+- Import new file to PAGES CustomerLogin.js, CustomerSignup.js and UserLogin.js
 
 # WebApp boilerplate with React JS and Flask API
 

@@ -1,5 +1,7 @@
 ### 1) Quick Login Feature.
 - pip install flask-jwt-extended
+- Import user/customer routes and models. run JWT extended install import Customer on routes
+- admin.add_view(ModelView(Customer, db.session))  Add to admin and import Customer
 
 # WebApp boilerplate with React JS and Flask API
 

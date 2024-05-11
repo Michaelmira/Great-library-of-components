@@ -18,15 +18,15 @@ export const CustomerLogin = () => {
         }
     };
 
-    const handleForgotPassword = async () => {
-        try {
-            await actions.sendPasswordResetEmail(email, "customer");
-            alert("Link was sent to your email");
-        } catch (error) {
-            console.error("Failed to reset password");
-            alert("Failed to reset password. Please try again");
-        }
-    };
+    // const handleForgotPassword = async () => {
+    //     try {
+    //         await actions.sendPasswordResetEmail(email, "customer");
+    //         alert("Link was sent to your email");
+    //     } catch (error) {
+    //         console.error("Failed to reset password");
+    //         alert("Failed to reset password. Please try again");
+    //     }
+    // };
 
    return (
         <div className="login-container">

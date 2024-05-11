@@ -6,6 +6,13 @@
 - Import to flux STORE customers: [], customerId: undefined, token: undefined, sessionStorageChecked: !!sessionStorage.getItem("token")
 - Import to flux ACTIONS "ALL Customer Actions"
 - Import new file to PAGES CustomerLogin.js, CustomerSignup.js and UserLogin.js
+- Import to Layout <Route element={<CustomerSignup />} path="/customer-signup" /> 
+- Import to Layout <Route element={<CustomerLogin setIsLoggedIn={setIsLoggedIn} />} path="/customer-log-in" />
+- Import to Layout <Route element={<UserLogin setIsLoggedIn={setIsLoggedIn} />} path="/user-log-in" />
+- Import the above 3 imports at top of Layout
+- Import new file to Componets Validators.js
+- Import CSS Files Login.css, CustomerSignUp.CSS
+- Import to Layout const [isLoggedIn, setIsLoggedIn] = useState(false); import usestate at top
 
 # WebApp boilerplate with React JS and Flask API
 

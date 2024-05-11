@@ -63,7 +63,6 @@ export const UserLogin = (props) => {
                                     outline: 'none',
                                 }}
                                 onClick={handleLogin}
-                              
                             >
                                 Submit
                             </button>

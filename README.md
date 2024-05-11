@@ -1,3 +1,6 @@
+### 1) Quick Login Feature.
+- pip install flask-jwt-extended
+
 # WebApp boilerplate with React JS and Flask API
 
 Build web applications using React.js for the front end and python/flask for your backend API.

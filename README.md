@@ -3,6 +3,9 @@
 - Import user/customer routes and models. run JWT extended install. import Customer on routes
 - Import Customer to admin.py and copy this in to admin.py "admin.add_view(ModelView(Customer, db.session))"
 - Import Decorators.py Whole File.
+- Import to flux STORE customers: [], customerId: undefined, token: undefined, sessionStorageChecked: !!sessionStorage.getItem("token")
+- Import to flux ACTIONS "ALL Customer Actions"
+- Import 
 
 # WebApp boilerplate with React JS and Flask API
 

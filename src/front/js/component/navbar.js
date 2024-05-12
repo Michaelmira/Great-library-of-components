@@ -4,12 +4,8 @@ import { Link, useNavigate } from 'react-router-dom';
 
 export const Navbar = () => {
 
-	const [click, setClick] = useState(false);
-    // const [button, setButton] = useState(true);
-    const {isLoggedIn, setIsLoggedIn} = useState(false);
     const navigate = useNavigate();
-    const [isMounted, setIsMounted] = useState(false);
-    const { store, actions } = useContext(Context);
+
 
 	return (
 		<nav className="navbar navbar-light bg-light">

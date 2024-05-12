@@ -18,6 +18,11 @@ export const Navbar = () => {
 						SIGN UP
 					</button>
 				</div>
+				<div className="ml-auto">
+					<button type="button" className="btn btn-primary" onClick={() => navigate('/customer-log-in')}>
+						Customer Login
+					</button>
+				</div>
 			</div>
 		</nav>
 	);

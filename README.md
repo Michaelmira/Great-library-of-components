@@ -1,5 +1,6 @@
 ### 1) Quick Customer and User Login Feature.
 - pip install flask-jwt-extended
+- Update app.py with JWT Imports
 - Import user/customer routes and models. run JWT extended install. import Customer on routes
 - Import Customer to admin.py and copy this in to admin.py "admin.add_view(ModelView(Customer, db.session))"
 - Import Decorators.py Whole File.
